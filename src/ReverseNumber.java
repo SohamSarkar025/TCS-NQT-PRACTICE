@@ -6,9 +6,10 @@ public class ReverseNumber {
         int num = in.nextInt();
         int sum = 0;
         while(num > 0){
-            int rem =num % 10;
-            sum = (sum*10)+rem;
-            num /= 10;
+            //num=153
+            int rem =num % 10;//3,5,1
+            sum = (sum*10)+rem; // 3,35,351
+            num /= 10;//15,1,0
         }
         System.out.println(sum);
     }
