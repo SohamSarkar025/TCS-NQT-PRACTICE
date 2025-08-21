@@ -1,3 +1,4 @@
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class SumOfArrayElements {
         for(int i=0;i<arr.length;i++){
             arr[i]= in.nextInt();
         }
-        System.out.println("The array is: "+Arrays.toString(arr));
+        System.out.println("The array is: "+ Arrays.toString(arr));
         for(int i=0;i<arr.length;i++){
             sum += arr[i];
         }
